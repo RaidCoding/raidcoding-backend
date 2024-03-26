@@ -11,7 +11,7 @@ public static partial class ServiceCollectionExtensions
 {
     public static void AddAuth(this IServiceCollection services, IConfiguration config)
     {
-        services.AddIdentity<User, IdentityRole<int>>()
+        services.AddIdentity<User, IdentityRole<Guid>>()
             .AddEntityFrameworkStores<RcDbContext>()
             .AddDefaultTokenProviders();
 

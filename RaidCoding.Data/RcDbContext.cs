@@ -11,7 +11,9 @@ public class RcDbContext(DbContextOptions<RcDbContext> options)
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        
+
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(RcDbContext).Assembly);
+
         modelBuilder.Entity<User>().ToTable("Users");
     }
 }

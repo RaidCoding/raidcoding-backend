@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RaidCoding.Data;
+using RaidCoding.Infrastructure.Services;
 
 namespace RaidCoding.Extensions;
 
@@ -9,5 +10,6 @@ public static partial class ServiceCollectionExtensions
     {
         services.AddDbContext<RcDbContext>(o =>
             o.UseNpgsql(config["PostgresConnectionString"]));
+        services.AddTransient<JwtService>();
     }
 }

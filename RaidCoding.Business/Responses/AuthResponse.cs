@@ -2,12 +2,12 @@
 
 namespace RaidCoding.Logic.Responses;
 
-public record AuthResponse;
+public record AuthResponse(string Token, DateTime Expires, UserResponse User);
 
 public static class AuthMappingExtensions
 {
-    public static AuthResponse ToAuthResponse(this User user)
+    public static AuthResponse ToAuthResponse(this User user, string token, DateTime expires)
     {
-        throw new NotImplementedException();
+        return new AuthResponse(token, expires, user.ToResponse());
     }
 }
