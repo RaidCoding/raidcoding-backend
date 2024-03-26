@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaidCoding.Web", "RaidCoding.Web\RaidCoding.Web.csproj", "{F5AEBC91-F3B9-4729-9B53-68CE3B95806A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaidCoding.Data", "RaidCoding.Data\RaidCoding.Data.csproj", "{D05064B7-93FF-44A6-BA1A-3A5522A868A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaidCoding.Business", "RaidCoding.Business\RaidCoding.Business.csproj", "{DC798715-5BEE-4BCB-99A5-9E04E13A5802}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5AEBC91-F3B9-4729-9B53-68CE3B95806A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AEBC91-F3B9-4729-9B53-68CE3B95806A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AEBC91-F3B9-4729-9B53-68CE3B95806A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AEBC91-F3B9-4729-9B53-68CE3B95806A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05064B7-93FF-44A6-BA1A-3A5522A868A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05064B7-93FF-44A6-BA1A-3A5522A868A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05064B7-93FF-44A6-BA1A-3A5522A868A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05064B7-93FF-44A6-BA1A-3A5522A868A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC798715-5BEE-4BCB-99A5-9E04E13A5802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC798715-5BEE-4BCB-99A5-9E04E13A5802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC798715-5BEE-4BCB-99A5-9E04E13A5802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC798715-5BEE-4BCB-99A5-9E04E13A5802}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
